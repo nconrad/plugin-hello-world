@@ -1,1 +1,1 @@
-pywaggle
+pywaggle==0.52.*
