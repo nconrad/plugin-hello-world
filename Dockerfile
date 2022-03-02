@@ -8,5 +8,8 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 
+# Next, we add our code.
 COPY main.py .
+
+# Finally, we specify the "main" thing that should be run.
 ENTRYPOINT [ "python3", "main.py" ]
