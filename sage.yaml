@@ -1,6 +1,6 @@
 name: "hello-world"
 description: "Intro example which publishes hello world."
-version: "0.1.0"
+version: "0.1.1"
 authors: "Sean Shahkarami <sshahkarami@anl.gov>"
 keywords: "example, tutorial, numpy, hackathon"
 source:
