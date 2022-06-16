@@ -11,10 +11,10 @@ inputs:
     type: int
     description: testing description field 2
   - id: some-param
-    type: bool
+    type: boolean
 source:
   architectures:
     - "linux/amd64"
     - "linux/arm64"
-  url: "https://github.com/waggle-sensor/plugin-hello-world"
+  url: "https://github.com/nconrad/plugin-hello-world"
   branch: "main"
