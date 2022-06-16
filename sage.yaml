@@ -10,7 +10,7 @@ inputs:
   - id: some-param-2
     type: int
     description: testing description field 2
-  - id: some-param
+  - id: some-param-3
     type: boolean
 source:
   architectures:
