@@ -1,8 +1,17 @@
 name: "hello-world"
 description: "Intro example which publishes hello world."
-version: "0.1.1"
-authors: "Sean Shahkarami <sshahkarami@anl.gov>"
+version: "0.1.0"
+authors: "nconrad"
 keywords: "example, tutorial, numpy, hackathon"
+inputs:
+  - id: some-param
+    type: int
+    description: testing description field
+  - id: some-param-2
+    type: int
+    description: testing description field 2
+  - id: some-param
+    type: bool
 source:
   architectures:
     - "linux/amd64"
